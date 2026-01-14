@@ -1,0 +1,14 @@
+/Users/nataliecastro/RiderProjects/Mission2/Mission2/bin/Debug/net8.0/Mission2
+/Users/nataliecastro/RiderProjects/Mission2/Mission2/bin/Debug/net8.0/Mission2.deps.json
+/Users/nataliecastro/RiderProjects/Mission2/Mission2/bin/Debug/net8.0/Mission2.runtimeconfig.json
+/Users/nataliecastro/RiderProjects/Mission2/Mission2/bin/Debug/net8.0/Mission2.dll
+/Users/nataliecastro/RiderProjects/Mission2/Mission2/bin/Debug/net8.0/Mission2.pdb
+/Users/nataliecastro/RiderProjects/Mission2/Mission2/obj/Debug/net8.0/Mission2.GeneratedMSBuildEditorConfig.editorconfig
+/Users/nataliecastro/RiderProjects/Mission2/Mission2/obj/Debug/net8.0/Mission2.AssemblyInfoInputs.cache
+/Users/nataliecastro/RiderProjects/Mission2/Mission2/obj/Debug/net8.0/Mission2.AssemblyInfo.cs
+/Users/nataliecastro/RiderProjects/Mission2/Mission2/obj/Debug/net8.0/Mission2.csproj.CoreCompileInputs.cache
+/Users/nataliecastro/RiderProjects/Mission2/Mission2/obj/Debug/net8.0/Mission2.dll
+/Users/nataliecastro/RiderProjects/Mission2/Mission2/obj/Debug/net8.0/refint/Mission2.dll
+/Users/nataliecastro/RiderProjects/Mission2/Mission2/obj/Debug/net8.0/Mission2.pdb
+/Users/nataliecastro/RiderProjects/Mission2/Mission2/obj/Debug/net8.0/Mission2.genruntimeconfig.cache
+/Users/nataliecastro/RiderProjects/Mission2/Mission2/obj/Debug/net8.0/ref/Mission2.dll
