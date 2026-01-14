@@ -29,6 +29,7 @@ namespace Mission2
                 {
                     Console.Write("*");
                 }
+
                 Console.WriteLine();
             }
 
@@ -36,3 +37,4 @@ namespace Mission2
         }
     }
 }
+//hey new comment
