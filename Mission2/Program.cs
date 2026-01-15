@@ -1,4 +1,5 @@
 ﻿// See https://aka.ms/new-console-template for more information
+
 namespace Mission2
 {
     internal class Program
@@ -6,35 +7,32 @@ namespace Mission2
         static void Main(string[] args)
         {
             Console.WriteLine("Welcome to the dice throwing simulator!");
-
-            Console.Write("How many dice rolls would you like to simulate? ");
+            Console.Write("How Many dice rolls would you like to simulate?");
             int rolls = int.Parse(Console.ReadLine());
-
-            // Llamar a la segunda clase
-            DiceRoller roller = new DiceRoller();
-            int[] results = roller.RollDice(rolls); // results[2]..results[12] usados
-
-            Console.WriteLine("\nDICE ROLLING SIMULATION RESULTS");
-            Console.WriteLine("Each \"*\" represents 1% of the total number of rolls.");
-            Console.WriteLine($"Total number of rolls = {rolls}.\n");
-
-            // Imprimir histograma 2..12
+            
+            //calling the second class
+            DiceRoller diceRoller = new DiceRoller();
+            int[] results = diceRoller.RollDice(rolls);
+            
+            Console.WriteLine("DICE ROLLING SIMULATOR RESULTS:");
+            Console.WriteLine("Each \"*\" represents 1% of the total number of rolls. ");
+            Console.WriteLine($"Total number of rolls = {rolls}.");
+            
+            // here the math for loop to show the 1% * 
             for (int sum = 2; sum <= 12; sum++)
             {
-                double percent = (double)results[sum] / rolls * 100.0;
-                int stars = (int)Math.Round(percent); // redondea a entero
-
+                double percentage = (double)results[sum] / rolls * 100.0;
+                int stars = (int)Math.Round(percentage); // if the answer is 4.3 we wil get 4 
+                
                 Console.Write($"{sum}: ");
-                for (int i = 0; i < stars; i++)
+                for (int i = 0; i < stars; i++)// so if we have 4 it would show as ****
                 {
                     Console.Write("*");
-                }
-
+                } 
                 Console.WriteLine();
             }
-
-            Console.WriteLine("\nThank you for using the dice throwing simulator.  Goodbye!");
+            Console.WriteLine("Thank you for using the dice throwing simulator.  Goodbye! ");
         }
     }
 }
-//hey new comment
+
