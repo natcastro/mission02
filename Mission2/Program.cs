@@ -1,5 +1,6 @@
 ﻿// See https://aka.ms/new-console-template for more information
-
+// Natalie Castro
+//This is a program where you are going to play with a dice simulator and will return the percent of times a number showed up 
 namespace Mission2
 {
     internal class Program
